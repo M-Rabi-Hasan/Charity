@@ -1,0 +1,86 @@
+/* src/components/Education.module.css */
+
+.educationSection {
+    background-color: #e9f5f2;
+    padding: 40px 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .quoteSection {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .quoteText {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .author {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2a9d8f;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .formSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .emailInput {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  .sendButton {
+    background-color: #e9c46a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sendButton:hover {
+    background-color: #f4a261;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .quoteSection {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .formSection {
+      width: 100%;
+    }
+  }
+  

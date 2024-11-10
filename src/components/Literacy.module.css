@@ -1,0 +1,56 @@
+/* src/components/Literacy.module.css */
+.literacySection {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    color: #2f9e44;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .subtext {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .contactButton {
+    padding: 10px 20px;
+    background-color: #f1c40f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .contactButton:hover {
+    background-color: #d4ac0d;
+  }
+  
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 1.5rem;
+    }
+  
+    .subtext {
+      font-size: 0.9rem;
+    }
+  
+    .contactButton {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  

@@ -1,0 +1,61 @@
+/* src/components/Story.module.css */
+
+.storySection {
+    padding: 60px 20px;
+    background-color: #eaf4f2;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #2a9d8f;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .titleHighlight {
+    display: inline-block;
+    height: 4px;
+    background-color: #e9c46a;
+    width: 50px;
+    margin-right: 10px;
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .paragraph {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .paragraph {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1.75rem;
+    }
+  
+    .paragraph {
+      font-size: 0.85rem;
+    }
+  }
+  

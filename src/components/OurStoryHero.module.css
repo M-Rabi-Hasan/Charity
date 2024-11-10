@@ -1,0 +1,39 @@
+/* src/components/OurStoryHero.module.css */
+
+.heroSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .imageContainer {
+    border: 5px solid #e9c46a; /* Gold border */
+    padding: 10px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .heroImage {
+    width: 100%;
+    height: auto;
+    max-width: 500px; /* Adjust max width as needed */
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .heroImage {
+      max-width: 350px; /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heroImage {
+      max-width: 300px; /* Adjust for extra small screens */
+    }
+  }
+  

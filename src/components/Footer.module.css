@@ -1,0 +1,171 @@
+/* src/components/Footer.module.css */
+
+.footer {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .leftSection {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .website {
+    font-weight: bold;
+    color: #f4a261;
+  }
+  
+  .linksSection {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    min-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .column {
+    margin-right: 20px;
+  }
+  
+  .heading {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .linksList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .linksList li {
+    margin-bottom: 5px;
+  }
+  
+  .linksList a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .linksList a:hover {
+    color: #f4a261;
+  }
+  
+  .formSection {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .formText {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .sendButton {
+    background-color: #f4a261;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .sendButton:hover {
+    background-color: #e76f51;
+  }
+  
+  .bottomBar {
+    background-color: #e9c46a;
+    color: #264653;
+    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .copyright {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    color: #264653;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #2a9d8f;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .linksSection {
+      flex-direction: column;
+      align-items: center;
+    }
+    .sendButton{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .formSection {
+      width: 100%;
+    }
+  
+    .bottomBar {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
